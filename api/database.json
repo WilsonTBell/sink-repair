@@ -1,13 +1,30 @@
 {
-    "plumbers": [],
-    "completions": [],
-    "requests": [
-        {
-            "id": 1,
-            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
-            "address": "34445 Bianka Ports",
-            "budget": 400,
-            "neededBy": "2021-08-27"
-        }
-    ]
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": 1,
+      "plumberId": 1,
+      "date_created": 1656443626357,
+      "description": "trees",
+      "id": 1
+    }
+  ],
+  "requests": [
+    {
+      "description": "trees",
+      "address": "12",
+      "budget": "13",
+      "neededBy": "2022-06-30",
+      "id": 1
+    }
+  ]
 }
